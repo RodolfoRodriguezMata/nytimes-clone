@@ -103,7 +103,7 @@ table {
 html {
     width: 100%;
     height: auto;
-    background-color: #f7f7f7;;
+    background-color: #FFFFFF;
 }
 
 .cheltenham {
@@ -142,6 +142,10 @@ a {
   float: left;
 }
 
+.clear-both {
+  clear: both;
+}
+
 .jumbo{
   width: 945px;
 }
@@ -169,7 +173,7 @@ header div span {
 }
 
 header div span a {
-    font-family: nyt-franklin;
+    font-family: "nyt-franklin";
     font-size: 14.25px;
     font-weight: 700;
 }
@@ -185,18 +189,61 @@ header div span button img {
     width: auto;
 }
 
+.blue-btn {
+  font-family: "nyt-franklin";
+  color: white;
+  background-color: rgb(86, 123, 149);
+  border: solid 1px rgb(86, 123, 149);
+  border-radius: 4px; 
+}
+
 #top-logo {
     width: 195px;
     height: 26.5px;
     padding-left: 25%;
 }
 
-header div button {
-    border: solid black 1px;
+#header-btns {
+  position: relative;
+  right: 25px;
+}
+
+.h-btn {
+  font-family: "nyt-cheltenham";
+  padding: 11px 12px 8px 12px;
+  font-size: 13px;
+  font-weight: 600;
 }
 
 main {
     padding-top: 60px;
+}
+
+#main-article{
+  width: 70%;
+}
+
+aside {
+  width: 30%;
+  margin-top: 150px;
+}
+
+#signup-btn {
+  font-size: 13px;
+  width: 180px;
+  padding: 10px;
+}
+
+#aside-posts {
+  margin-top: 150px;
+}
+
+.aside-picks img, #paid-post img{
+  width: 75px;
+}
+
+#paid-post {
+  background-color: #F6F6F6;
 }
 
 #main-title {
@@ -223,14 +270,13 @@ main {
 }
 
 #inflation-img {
-  max-width: 975px;
-  margin: 0 203px;
+  max-width: 945px;
 }
 
-
-
-.aside-picks img, #paid-post img{
-  width: 75px;
+#comments-btn {
+  padding: 5px 0;
+  width: 330px;
+  font-size: 13px;
 }
 
 .card {
