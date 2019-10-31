@@ -197,6 +197,34 @@ header div span button img {
   border-radius: 4px; 
 }
 
+.rnd-btn {
+    background-color: #eeeeee;
+    border: solid 1px #eeeeee;
+    border-radius: 100%;
+    height: 27px;
+    width: 27px;
+    padding: 0;
+}
+
+.social {
+    height: 15px;
+    width: 15px;
+    vertical-align: middle;
+    align-self: center;
+}
+
+#bookmark {
+    height: 25px;
+    width: 16px; 
+}
+
+#bookmark-btn {
+    border: none;
+    height: 30px;
+    width: 18px;
+    background-color: transparent;
+}
+
 #top-logo {
     width: 195px;
     height: 26.5px;
@@ -220,7 +248,9 @@ main {
 }
 
 #main-article{
-  width: 70%;
+  width: 600px;
+  margin: 0 auto;
+  padding-left: 20%;
 }
 
 aside {
@@ -247,12 +277,17 @@ aside {
 }
 
 #main-title {
+    width: 945px;
+}
+
+#main-title h1 {
     font-family: "nyt-cheltenham";
     font-weight: 700;
     font-size: 40px;
     font-style: italic;
     font-stretch: 100%;
     line-height: 3rem;
+    padding-left: 75px;
 }
 
 #img-1-cap-1 {
