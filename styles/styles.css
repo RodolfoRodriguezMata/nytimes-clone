@@ -291,11 +291,46 @@ main {
   width: 600px;
   margin: 0 auto;
   padding-left: 20%;
+  font-size: 20px;
+  font-family: 'nyt-imperial';
 }
 
 aside {
-  width: 30%;
+  overflow: hidden;
+  width: 210px;
   margin-top: 150px;
+  margin-left: 80px;
+}
+
+.aside-img {
+  width: 75px;
+  margin-left: 0px;
+  display: inline-block;
+  border:1px solid black;
+}
+
+.aside-title {
+  position: relative;
+  bottom: 10px;
+  display: inline-block;
+  width: calc(100% - 90px);
+  height: 70px;
+  border:1px solid black; 
+}
+
+aside a h3{
+  border:1px solid red;
+  font-size: 14px;
+  font-family: 'nyt-cheltenham-small';
+}
+
+.aside-picks {
+  border:1px solid red;
+}
+
+.aside-picks a{
+  height: 85px;
+  width: 100%;
 }
 
 #signup-btn {
@@ -309,6 +344,8 @@ aside {
 }
 
 .aside-picks img, #paid-post img{
+  padding-top: 10px;
+  margin-bottom: 1px;
   width: 75px;
 }
 
