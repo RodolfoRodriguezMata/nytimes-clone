@@ -206,6 +206,46 @@ header div span button img {
     padding: 0;
 }
 
+#publish-date {
+  margin-top: 14px;
+  margin-bottom: 14px;
+  float: left; 
+}
+
+#comment-btn {
+    align-self: center;
+    background-color: transparent;
+    bottom: 0.05rem;
+    color: rgb(102, 102, 102);
+    cursor: pointer;
+    display: inline-flex;
+    flex-direction: column;
+    font-family: "nyt-franklin", helvetica, arial, sans-serif;
+    font-size: 0.75rem;
+    font-weight: 500;
+    height: 25px;
+    line-height: 1rem;
+    margin-left: 2px;
+    min-width: 24px;
+    overflow: visible;
+    padding: 0px 0px 4px;
+    position: relative;
+    text-transform: uppercase;
+    border: medium none;
+}
+
+#comment-icon {
+  position: relative;
+  top: 5px;
+  width: 32px;
+  height: 25px;
+}
+
+#comments-ammount {
+  position: relative;
+  bottom: 18px;
+}
+
 .social {
     height: 15px;
     width: 15px;
