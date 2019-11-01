@@ -423,9 +423,31 @@ aside a h3{
   font-size: 13px;
 }
 
+#most-popular {
+  max-width: 315px;
+}
+
+#space-cosmos, #bottom-editors {
+  width: 852px;
+}
+
 .card {
   width: 272px;
 }
+
+.card-container {
+  display: inline-block;
+  width: 33%;
+  height: 200px;
+  float: none;
+  font-size: 18px;
+  font-family: 'nyt-cheltenham';
+}
+
+.card-text, .card-title{
+  width: 270px;
+}
+
 .inline li {
   display: inline;
 }
