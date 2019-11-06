@@ -146,6 +146,10 @@ a {
   clear: both;
 }
 
+.clear-left {
+  clear: left;
+}
+
 .jumbo{
   width: 945px;
 }
@@ -305,15 +309,19 @@ main {
     padding-top: 60px;
 }
 
-#main-article{
+.main-article {
   width: 600px;
   margin: 0 auto;
-  padding-left: 20%;
   font-size: 20px;
   font-family: 'nyt-imperial';
   line-height: 30px;
   font-weight: 400;
   color: rgb(51, 51, 51);
+}
+
+.main-article span {
+  height: 20px;
+  display: block;
 }
 
 .subtitle {
@@ -330,10 +338,11 @@ main {
 }
 
 aside {
-  overflow: hidden;
+  position: relative;
+  right: 90px;
   width: 210px;
-  margin-top: 150px;
-  margin-left: 80px;
+  margin-top: 420px;
+  margin-left: 75px;
 }
 
 .aside-img {
@@ -413,14 +422,29 @@ aside a h3{
     display: inline-block;
 }
 
-#inflation-img {
-  width: 945px;
-  height: 576px;
-}
-
 .inflation {
+  width: 945px;
   display: block;
   position: relative;
+  margin: auto;
+  clear: both;
+}
+
+.inflation-text .subtitle {
+  margin: 0;
+}
+
+.inflation-text p {
+  color: #666666;
+  line-height: 18px;
+  font-size: 14px;
+  width: 909px;
+  margin-right: 8px;
+}
+
+#inflation-img {
+  width: 945px;
+  
 }
 
 .inflation figcaption::before {
@@ -448,7 +472,7 @@ aside a h3{
   display: inline-block;
   position: absolute;
   font-family: "nyt-franklin";
-  font-size: 11px;
+  font-size: 14px;
   line-height: 17px;
   font-weight: 300;
   color:#000000;
@@ -459,42 +483,42 @@ aside a h3{
 }
 
 #img-universe {
-  top: 140px;
-  left: 8px;
+  top: 230px;
+  left: 0;
   z-index: 3;
 }
 #img-time {
-  top: 140px;
+  top: 230px;
   left: 235px;
   z-index: 3;
 }
 #img-distant {
-  top: 140px;
+  top: 230px;
   left: 475px;
   z-index: 3;
 }
 #img-everywhere {
-  top: 140px;
+  top: 230px;
   left: 721px;
   z-index: 3;
 }
 #img-not-time {
-  top: 400px;
-  left: 8px;
+  top: 480px;
+  left: 0;
   z-index: 3;
 }
 #img-inflation {
-  top: 400px;
+  top: 480px;
   left: 235px;
   z-index: 3;
 }
 #img-fluctuation {
-  top: 400px;
+  top: 480px;
   left: 475px;
   z-index: 3;
 }
 #img-expansion {
-  top: 400px;
+  top: 480px;
   left: 721px;
   z-index: 3;
 }
