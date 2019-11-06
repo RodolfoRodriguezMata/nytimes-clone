@@ -414,7 +414,89 @@ aside a h3{
 }
 
 #inflation-img {
-  max-width: 945px;
+  width: 945px;
+  height: 576px;
+}
+
+.inflation {
+  display: block;
+  position: relative;
+}
+
+.inflation figcaption::before {
+  width: 60px;
+  content: '';
+  display: inline-block;
+  height: 1px;
+  margin: 0 0 13px;
+  background-color:#000;
+  position: absolute;
+  top: -15px;
+}
+
+.inflation figcaption {
+  font-size: 14px;
+  font-weight: 500;
+  font-family: "nyt-franklin";
+  line-height: 18px;
+  position: relative;
+  margin-bottom: 50px;
+}
+
+.img-text {
+  width: 225px;
+  display: inline-block;
+  position: absolute;
+  font-family: "nyt-franklin";
+  font-size: 11px;
+  line-height: 17px;
+  font-weight: 300;
+  color:#000000;
+}
+
+.img-text strong {
+  font-weight: 700;
+}
+
+#img-universe {
+  top: 140px;
+  left: 8px;
+  z-index: 3;
+}
+#img-time {
+  top: 140px;
+  left: 235px;
+  z-index: 3;
+}
+#img-distant {
+  top: 140px;
+  left: 475px;
+  z-index: 3;
+}
+#img-everywhere {
+  top: 140px;
+  left: 721px;
+  z-index: 3;
+}
+#img-not-time {
+  top: 400px;
+  left: 8px;
+  z-index: 3;
+}
+#img-inflation {
+  top: 400px;
+  left: 235px;
+  z-index: 3;
+}
+#img-fluctuation {
+  top: 400px;
+  left: 475px;
+  z-index: 3;
+}
+#img-expansion {
+  top: 400px;
+  left: 721px;
+  z-index: 3;
 }
 
 #comments-btn {
