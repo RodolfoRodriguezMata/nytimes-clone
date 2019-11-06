@@ -568,11 +568,35 @@ aside a h3{
   font-size: 13px;
 }
 
+.title {
+  font-size: 16px;
+  font-weight: 700;
+  font-family: 'nyt-franklin';
+  margin: 40px 0 20px 0;
+  padding-top: 20px;
+  border-top: 1px solid black;
+}
+
 #most-popular {
+  margin-right: 75px;
   max-width: 315px;
 }
 
+#most-popular h2 {
+  
+}
+#most-popular a {
+  display: block;
+  border-top: 1px solid rgb(226, 226, 226);
+  font-size: 19px;
+  font-weight: 500;
+  line-height: 23px;
+  font-family: 'nyt-cheltenham';
+  padding: 18px 0;
+}
+
 #space-cosmos, #bottom-editors {
+  margin-left: 75px;
   width: 852px;
 }
 
@@ -582,15 +606,47 @@ aside a h3{
 
 .card-container {
   display: block;
-  width: 275px;
+  width: 273px;
   height: 350px;
   float: left;
   font-size: 18px;
   font-family: 'nyt-cheltenham';
 }
 
+.middle-card {
+  margin: 0 14.5px;
+}
+
 .card-text, .card-title{
   width: 270px;
+}
+
+.fixed-bottom {
+  height: 40px;
+  position: fixed;
+  bottom: 0;
+  border-top: 1px solid black;
+  z-index: 10;
+  width: 100%;
+  background-color: white;
+  padding-top: 25px;
+}
+
+.fixed-bottom h2{
+  margin-left: 32%;
+  width: 40%;
+  display: inline-block;
+  font-family: 'nyt-franklin';
+}
+
+.fixed-bottom h1 {
+  float: right;
+  display: inline-block;
+  width: 15%;
+  font-weight: 700;
+  font-family: 'nyt-franklin';
+  font-size: 12px;
+  letter-spacing: 0.24px;
 }
 
 .inline li {
@@ -598,5 +654,20 @@ aside a h3{
 }
 
 footer a {
+  font-size: 12px;
+  font-family: 'nyt-franklin';
+  padding: 0 5px;
   color: rgb(153, 153, 153);
+}
+
+footer {
+  padding: 0 50px;
+  text-align: center;
+}
+
+footer nav {
+  width: 90%;
+  border-top: 1px solid rgb(226, 226, 226);
+  padding-top: 20px;
+  padding-bottom: 90px;
 }
