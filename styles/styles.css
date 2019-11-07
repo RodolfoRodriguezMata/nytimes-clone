@@ -432,7 +432,7 @@ aside a h3{
 }
 
 .img-cap-2 {
-    color: #666;
+    color: rgb(136, 136, 136);
     font-family:"nyt-imperial";
     font-size: 13px;
     display: inline-block;
