@@ -1,9 +1,9 @@
 @font-face {
-    font-family: 'nyt-cheltenham';
-    src: url('/fonts/cheltenham-italic-700.woff2') format('woff2');
-    font-style: italic;
-    font-weight: 700;
-  }
+  font-family: 'nyt-cheltenham';
+  src: url('/fonts/cheltenham-italic-700.woff2') format('woff2');
+  font-style: italic;
+  font-weight: 700;
+}
 
 @font-face {
   font-family: 'nyt-cheltenham';
@@ -13,46 +13,46 @@
 }
 
 @font-face {
-    font-family: 'nyt-cheltenham-small';
-    src: url('/fonts/cheltenham-small-normal-400.woff2') format('woff2');
-    font-style: normal;
-    font-weight: 400;
-    font-display: swap;
+  font-family: 'nyt-cheltenham-small';
+  src: url('/fonts/cheltenham-small-normal-400.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'nyt-franklin';
-    src: url('/fonts/franklin-normal-300.woff2') format('woff2');
-    font-style: normal;
-    font-weight: 300;
+  font-family: 'nyt-franklin';
+  src: url('/fonts/franklin-normal-300.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 300;
 }
 
 @font-face {
-    font-family: 'nyt-franklin';
-    src: url('/fonts/franklin-normal-500.woff2') format('woff2');
-    font-style: normal;
-    font-weight: 500;
+  font-family: 'nyt-franklin';
+  src: url('/fonts/franklin-normal-500.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 500;
 }
 
 @font-face {
-    font-family: 'nyt-franklin';
-    src: url('/fonts/franklin-normal-600.woff2') format('woff2');
-    font-style: normal;
-    font-weight: 600;
+  font-family: 'nyt-franklin';
+  src: url('/fonts/franklin-normal-600.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 600;
 }
 
 @font-face {
-    font-family: 'nyt-franklin';
-    src: url('/fonts/franklin-normal-700.woff2') format('woff2');
-    font-style: normal;
-    font-weight: 700;
+  font-family: 'nyt-franklin';
+  src: url('/fonts/franklin-normal-700.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 700;
 }
 
 @font-face {
-    font-family: 'nyt-imperial';
-    src: url('/fonts/imperial-normal-400.woff2') format('woff2');
-    font-style: normal;
-    font-weight: 400;
+  font-family: 'nyt-imperial';
+  src: url('/fonts/imperial-normal-400.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 400;
 }
 
 html, body, div, span, applet, object, iframe,
@@ -64,49 +64,49 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    font: inherit;
-    vertical-align: baseline;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
 }
 
- /* HTML5 display-role reset for older browsers */ 
+/* HTML5 display-role reset for older browsers */
 
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
-    display: block;
+  display: block;
 }
 
 body {
-    line-height: 1;
+  line-height: 1;
 }
 
 ol, ul {
-    list-style: none;
+  list-style: none;
 }
 
 blockquote, q {
-    quotes: none;
+  quotes: none;
 }
 
 blockquote:before, blockquote:after,
 q:before, q:after {
-    content: '';
-    content: none;
+  content: '';
+  content: none;
 }
 
 table {
-    border-collapse: collapse;
-    border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
-/*----------end of reset rules --------------*/
+/* ----------end of reset rules -------------- */
 
 html {
   width: 100%;
@@ -221,7 +221,7 @@ header div span button img {
 }
 
 #author-name {
-  color: rgb(51,51,51);
+  color: rgb(51, 51, 51);
   font-size: 15px;
   font-family: "nyt-franklin";
   font-weight: 700;
@@ -259,7 +259,7 @@ header div span button img {
   margin-left: 2px;
   min-width: 24px;
   overflow: visible;
-  padding: 0px 0px 4px;
+  padding: 0 0 4px;
   position: relative;
   text-transform: uppercase;
   border: medium none;
@@ -292,7 +292,7 @@ header div span button img {
 
 #bookmark {
   height: 30px;
-  width: 21px; 
+  width: 21px;
   align-self: center;
 }
 
@@ -347,8 +347,8 @@ main {
 .subtitle {
   font-size: 20px;
   font-weight: 700;
-  color: rgb(51,51,51);
-  margin: 10px 0px;
+  color: rgb(51, 51, 51);
+  margin: 10px 0;
 }
 
 #biceps-img {
@@ -367,7 +367,7 @@ aside {
 
 .aside-img {
   width: 75px;
-  margin-left: 0px;
+  margin-left: 0;
   display: inline-block;
 }
 
@@ -453,7 +453,7 @@ aside a h3 {
 
 .img-cap-2 {
   color: rgb(136, 136, 136);
-  font-family:"nyt-imperial";
+  font-family: "nyt-imperial", sans-serif;
   font-size: 13px;
   display: inline-block;
 }
@@ -488,7 +488,7 @@ aside a h3 {
   display: inline-block;
   height: 1px;
   margin: 0 0 13px;
-  background-color:#000;
+  background-color: #000;
   position: absolute;
   top: -15px;
 }
@@ -510,7 +510,7 @@ aside a h3 {
   font-size: 12px;
   line-height: 17px;
   font-weight: 300;
-  color:#000;
+  color: #000;
 }
 
 .img-text strong {
@@ -522,36 +522,43 @@ aside a h3 {
   left: 0;
   z-index: 3;
 }
+
 #img-time {
   top: 200px;
   left: 235px;
   z-index: 3;
 }
+
 #img-distant {
   top: 200px;
   left: 475px;
   z-index: 3;
 }
+
 #img-everywhere {
   top: 200px;
   left: 721px;
   z-index: 3;
 }
+
 #img-not-time {
   top: 480px;
   left: 0;
   z-index: 3;
 }
+
 #img-inflation {
   top: 480px;
   left: 235px;
   z-index: 3;
 }
+
 #img-fluctuation {
   top: 480px;
   left: 475px;
   z-index: 3;
 }
+
 #img-expansion {
   top: 480px;
   left: 721px;
