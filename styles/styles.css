@@ -259,29 +259,40 @@ header div span button img {
 
 #comment-icon {
   position: relative;
-  top: 5px;
+  top: 12px;
   width: 32px;
   height: 25px;
 }
 
 #comments-ammount {
-  position: relative;
-  bottom: 18px;
+  position: absolute;
+  top: 14px;
+  left: 6px;
+  vertical-align: middle;
 }
 
 .social {
-    height: 15px;
-    width: 15px;
+    height: 18px;
+    width: 18px;
     vertical-align: middle;
     align-self: center;
 }
 
+.social-fb {
+  vertical-align: middle;
+}
+
 #bookmark {
-    height: 25px;
-    width: 16px; 
+    height: 30px;
+    width: 21px; 
+    align-self: center;
 }
 
 #bookmark-btn {
+  padding: 0;
+    position: relative;
+    top: 11px;
+    right: 8px;
     border: none;
     height: 30px;
     width: 18px;
@@ -639,13 +650,25 @@ aside a h3{
   font-family: 'nyt-franklin';
 }
 
-.fixed-bottom h1 {
+.fixed-bottom div {
   float: right;
   width: 15%;
   font-weight: 700;
   font-family: 'nyt-franklin';
   font-size: 12px;
   letter-spacing: 0.24px;
+}
+
+.card-container time {
+  display: block;
+  font-size: 12px;
+  color: #999999;
+}
+
+.fixed-bottom img {
+  width: 25px;
+  vertical-align: middle;
+  margin-left: 30px;
 }
 
 #home-page {
