@@ -688,6 +688,11 @@ aside a h3 {
   font-size: 13px;
 }
 
+#bottom-wrapper {
+  width: 75%;
+  margin: 0 auto;
+}
+
 .title {
   font-size: 16px;
   font-weight: 700;
@@ -698,7 +703,6 @@ aside a h3 {
 }
 
 #most-popular {
-  margin-right: 75px;
   max-width: 315px;
 }
 
@@ -714,7 +718,6 @@ aside a h3 {
 
 #space-cosmos,
 #bottom-editors {
-  margin-left: 75px;
   width: 852px;
 }
 
