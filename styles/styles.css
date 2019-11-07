@@ -174,10 +174,10 @@ q {
   quotes: none;
 }
 
-blockquote:before,
-blockquote:after,
-q:before,
-q:after {
+blockquote::before,
+blockquote::after,
+q::before,
+q::after {
   content: '';
   content: none;
 }
@@ -245,6 +245,13 @@ a {
 
 .m-0a {
   margin: 0 auto;
+}
+
+footer a {
+  font-size: 12px;
+  font-family: 'nyt-franklin', sans-serif;
+  padding: 0 5px;
+  color: rgb(153, 153, 153);
 }
 
 header {
@@ -496,6 +503,12 @@ aside a h3 {
   margin-top: 150px;
 }
 
+.fixed-bottom img {
+  width: 25px;
+  vertical-align: middle;
+  margin-left: 30px;
+}
+
 .aside-picks img,
 #paid-post img {
   padding-top: 10px;
@@ -657,7 +670,7 @@ aside a h3 {
 
 #print-info {
   margin: 30px auto;
-  font-family: "nyt-franklin" sans-serif;
+  font-family: "nyt-franklin", sans-serif;
   font-size: 10.5px;
   font-weight: 400;
   line-height: 16px;
@@ -722,7 +735,8 @@ aside a h3 {
   margin: 0 14.5px;
 }
 
-.card-text, .card-title {
+.card-text,
+.card-title {
   width: 270px;
 }
 
@@ -759,12 +773,6 @@ aside a h3 {
   color: #999;
 }
 
-.fixed-bottom img {
-  width: 25px;
-  vertical-align: middle;
-  margin-left: 30px;
-}
-
 #home-page {
   color: rgb(86, 123, 149);
   font-family: "nyt-franklin", sans-serif;
@@ -778,6 +786,10 @@ aside a h3 {
   width: 90%;
   border-top: 3px solid rgb(226, 226, 226);
   padding-top: 5px;
+}
+
+.inline li {
+  display: inline;
 }
 
 .lower-column {
@@ -817,17 +829,6 @@ aside a h3 {
 
 #lower-double strong {
   font-weight: 700;
-}
-
-.inline li {
-  display: inline;
-}
-
-footer a {
-  font-size: 12px;
-  font-family: 'nyt-franklin', sans-serif;
-  padding: 0 5px;
-  color: rgb(153, 153, 153);
 }
 
 footer {
