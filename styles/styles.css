@@ -689,7 +689,7 @@ aside a h3 {
 }
 
 #bottom-wrapper {
-  width: 75%;
+  width: 77%;
   margin: 0 auto;
 }
 
@@ -703,7 +703,7 @@ aside a h3 {
 }
 
 #most-popular {
-  max-width: 315px;
+  width: 22.5%;
 }
 
 #most-popular a {
@@ -718,16 +718,16 @@ aside a h3 {
 
 #space-cosmos,
 #bottom-editors {
-  width: 852px;
+  width: 73.5%;
 }
 
 .card {
-  width: 272px;
+  width: 100%;
 }
 
 .card-container {
   display: block;
-  width: 273px;
+  width: 32%;
   height: 350px;
   float: left;
   font-size: 18px;
