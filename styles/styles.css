@@ -150,7 +150,7 @@ a {
   clear: left;
 }
 
-.jumbo{
+.jumbo {
   width: 945px;
 }
 
@@ -159,39 +159,39 @@ a {
 }
 
 header {
-    width: 100%;
-    height: 42px;
-    background-color: #ffffff;
-    position: fixed;
-    border-bottom: 1px solid #e2e2e2;
-    padding: 4px 15px 2px 15px;
-    z-index: 9;
+  width: 100%;
+  height: 42px;
+  background-color: #ffffff;
+  position: fixed;
+  border-bottom: 1px solid #e2e2e2;
+  padding: 4px 15px 2px 15px;
+  z-index: 9;
 }
 
-header div{
-    display: inline;
+header div {
+  display: inline;
 }
 
 header div span {
-    font-weight: 400;
-    font-size: 16px;
+  font-weight: 400;
+  font-size: 16px;
 }
 
 header div span a {
-    font-family: "nyt-franklin";
-    font-size: 14.25px;
-    font-weight: 700;
+  font-family: "nyt-franklin";
+  font-size: 14.25px;
+  font-weight: 700;
 }
 
 header div span button {
-    border: none;
-    background-color: rgba(0, 0, 0, 0);
-    padding: 8px 9px 9px 9px;
+  border: none;
+  background-color: rgba(0, 0, 0, 0);
+  padding: 8px 9px 9px 9px;
 }
 
 header div span button img {
-    height: 20px;
-    width: auto;
+  height: 20px;
+  width: auto;
 }
 
 .blue-btn {
@@ -203,13 +203,13 @@ header div span button img {
 }
 
 .rnd-btn {
-    background-color: #eeeeee;
-    border: solid 1px #eeeeee;
-    border-radius: 100%;
-    height: 27px;
-    width: 27px;
-    padding: 0;
-    margin-right: 15px;
+  background-color: #eeeeee;
+  border: solid 1px #eeeeee;
+  border-radius: 100%;
+  height: 27px;
+  width: 27px;
+  padding: 0;
+  margin-right: 15px;
 }
 
 #author-name {
@@ -236,25 +236,25 @@ header div span button img {
 }
 
 #comment-btn {
-    align-self: center;
-    background-color: transparent;
-    bottom: 0.05rem;
-    color: rgb(102, 102, 102);
-    cursor: pointer;
-    display: inline-flex;
-    flex-direction: column;
-    font-family: "nyt-franklin", helvetica, arial, sans-serif;
-    font-size: 0.75rem;
-    font-weight: 500;
-    height: 25px;
-    line-height: 1rem;
-    margin-left: 2px;
-    min-width: 24px;
-    overflow: visible;
-    padding: 0px 0px 4px;
-    position: relative;
-    text-transform: uppercase;
-    border: medium none;
+  align-self: center;
+  background-color: transparent;
+  bottom: 0.05rem;
+  color: rgb(102, 102, 102);
+  cursor: pointer;
+  display: inline-flex;
+  flex-direction: column;
+  font-family: "nyt-franklin", helvetica, arial, sans-serif;
+  font-size: 0.75rem;
+  font-weight: 500;
+  height: 25px;
+  line-height: 1rem;
+  margin-left: 2px;
+  min-width: 24px;
+  overflow: visible;
+  padding: 0px 0px 4px;
+  position: relative;
+  text-transform: uppercase;
+  border: medium none;
 }
 
 #comment-icon {
@@ -272,10 +272,10 @@ header div span button img {
 }
 
 .social {
-    height: 18px;
-    width: 18px;
-    vertical-align: middle;
-    align-self: center;
+  height: 18px;
+  width: 18px;
+  vertical-align: middle;
+  align-self: center;
 }
 
 .social-fb {
@@ -283,26 +283,26 @@ header div span button img {
 }
 
 #bookmark {
-    height: 30px;
-    width: 21px; 
-    align-self: center;
+  height: 30px;
+  width: 21px; 
+  align-self: center;
 }
 
 #bookmark-btn {
   padding: 0;
-    position: relative;
-    top: 11px;
-    right: 8px;
-    border: none;
-    height: 30px;
-    width: 18px;
-    background-color: transparent;
+  position: relative;
+  top: 11px;
+  right: 8px;
+  border: none;
+  height: 30px;
+  width: 18px;
+  background-color: transparent;
 }
 
 #top-logo {
-    width: 195px;
-    height: 26.5px;
-    padding-left: 25%;
+  width: 195px;
+  height: 26.5px;
+  padding-left: 25%;
 }
 
 #header-btns {
@@ -318,7 +318,7 @@ header div span button img {
 }
 
 main {
-    padding-top: 60px;
+  padding-top: 60px;
 }
 
 .main-article {
@@ -407,7 +407,8 @@ aside a h3{
   margin-top: 150px;
 }
 
-.aside-picks img, #paid-post img{
+.aside-picks img,
+#paid-post img{
   padding-top: 10px;
   margin-bottom: 1px;
   width: 75px;
@@ -418,35 +419,35 @@ aside a h3{
 }
 
 #main-title {
-    width: 945px;
+  width: 945px;
 }
 
 #main-title h1 {
-    font-family: "nyt-cheltenham";
-    font-weight: 700;
-    font-size: 40px;
-    font-style: italic;
-    font-stretch: 100%;
-    line-height: 3rem;
-    padding-left: 75px;
+  font-family: "nyt-cheltenham";
+  font-weight: 700;
+  font-size: 40px;
+  font-style: italic;
+  font-stretch: 100%;
+  line-height: 3rem;
+  padding-left: 75px;
 }
 
 .img-cap-1 {
-    color: #666;
-    font-family: "nyt-imperial";
-    font-size: 14px;
-    display: inline-block;
-    width: 600px;
-    height: 36px;
-    line-height: 20px;
-    text-align: left;
+  color: #666;
+  font-family: "nyt-imperial";
+  font-size: 14px;
+  display: inline-block;
+  width: 600px;
+  height: 36px;
+  line-height: 20px;
+  text-align: left;
 }
 
 .img-cap-2 {
-    color: rgb(136, 136, 136);
-    font-family:"nyt-imperial";
-    font-size: 13px;
-    display: inline-block;
+  color: rgb(136, 136, 136);
+  font-family:"nyt-imperial";
+  font-size: 13px;
+  display: inline-block;
 }
 
 .inflation {
@@ -471,7 +472,6 @@ aside a h3{
 
 #inflation-img {
   width: 945px;
-  
 }
 
 .inflation figcaption::before {
@@ -593,9 +593,6 @@ aside a h3{
   max-width: 315px;
 }
 
-#most-popular h2 {
-  
-}
 #most-popular a {
   display: block;
   border-top: 1px solid rgb(226, 226, 226);
@@ -628,7 +625,7 @@ aside a h3{
   margin: 0 14.5px;
 }
 
-.card-text, .card-title{
+.card-text, .card-title {
   width: 270px;
 }
 
@@ -643,7 +640,7 @@ aside a h3{
   padding-top: 25px;
 }
 
-.fixed-bottom h2{
+.fixed-bottom h2 {
   margin-left: 32%;
   width: 40%;
   display: inline-block;
