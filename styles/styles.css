@@ -1,0 +1,852 @@
+@font-face {
+  font-family: 'nyt-cheltenham';
+  src: url('/fonts/cheltenham-italic-700.woff2') format('woff2');
+  font-style: italic;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'nyt-cheltenham';
+  src: url('/fonts/cheltenham-normal-400.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'nyt-cheltenham-small';
+  src: url('/fonts/cheltenham-small-normal-400.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'nyt-franklin';
+  src: url('/fonts/franklin-normal-300.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'nyt-franklin';
+  src: url('/fonts/franklin-normal-500.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'nyt-franklin';
+  src: url('/fonts/franklin-normal-600.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: 'nyt-franklin';
+  src: url('/fonts/franklin-normal-700.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'nyt-imperial';
+  src: url('/fonts/imperial-normal-400.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 400;
+}
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote::before,
+blockquote::after,
+q::before,
+q::after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* ----------end of reset rules -------------- */
+
+html {
+  width: 100%;
+  height: auto;
+  background-color: #fff;
+}
+
+.cheltenham {
+  font-family: "nyt-cheltenham", sans-serif;
+}
+
+.cheltenham-small {
+  font-family: "nyt-cheltenham-small", sans-serif;
+}
+
+.franklin {
+  font-family: "nyt-franklin", sans-serif;
+}
+
+.imperial {
+  font-family: "nyt-imperial", sans-serif;
+}
+
+.size-16 {
+  font-size: 16px;
+}
+
+* {
+  color: black;
+}
+
+a {
+  text-decoration: none;
+}
+
+.float-right {
+  float: right;
+}
+
+.float-left {
+  float: left;
+}
+
+.clear-both {
+  clear: both;
+}
+
+.clear-left {
+  clear: left;
+}
+
+.jumbo {
+  width: 945px;
+}
+
+.m-0a {
+  margin: 0 auto;
+}
+
+footer a {
+  font-size: 12px;
+  font-family: 'nyt-franklin', sans-serif;
+  padding: 0 5px;
+  color: rgb(153, 153, 153);
+}
+
+header {
+  width: 100%;
+  height: 42px;
+  background-color: #fff;
+  position: fixed;
+  border-bottom: 1px solid #e2e2e2;
+  padding: 4px 15px 2px 15px;
+  z-index: 9;
+}
+
+header div {
+  display: inline;
+}
+
+header div span {
+  font-weight: 400;
+  font-size: 16px;
+}
+
+header div span a {
+  font-family: "nyt-franklin", sans-serif;
+  font-size: 14.25px;
+  font-weight: 700;
+}
+
+header div span button {
+  border: none;
+  background-color: rgba(0, 0, 0, 0);
+  padding: 8px 9px 9px 9px;
+}
+
+header div span button img {
+  height: 20px;
+  width: auto;
+}
+
+.blue-btn {
+  font-family: "nyt-franklin", sans-serif;
+  color: white;
+  background-color: rgb(86, 123, 149);
+  border: solid 1px rgb(86, 123, 149);
+  border-radius: 4px;
+}
+
+.rnd-btn {
+  background-color: #eee;
+  border: solid 1px #eee;
+  border-radius: 100%;
+  height: 27px;
+  width: 27px;
+  padding: 0;
+  margin-right: 15px;
+}
+
+#author-name {
+  color: rgb(51, 51, 51);
+  font-size: 15px;
+  font-family: "nyt-franklin", sans-serif;
+  font-weight: 700;
+}
+
+.aside-picks a {
+  height: 85px;
+  width: 100%;
+}
+
+#author-name a {
+  margin-top: 50px;
+  border-bottom: 1px solid #ccc;
+  display: inline-block;
+  height: 23px;
+}
+
+#publish-date {
+  margin-top: 14px;
+  margin-bottom: 14px;
+  float: left;
+  font-size: 13px;
+  font-family: "nyt-franklin", sans-serif;
+  color: rgb(51, 51, 51);
+}
+
+#comment-btn {
+  align-self: center;
+  background-color: transparent;
+  bottom: 0.05rem;
+  color: rgb(102, 102, 102);
+  cursor: pointer;
+  display: inline-flex;
+  flex-direction: column;
+  font-family: "nyt-franklin", helvetica, arial, sans-serif;
+  font-size: 0.75rem;
+  font-weight: 500;
+  height: 25px;
+  line-height: 1rem;
+  margin-left: 2px;
+  min-width: 24px;
+  overflow: visible;
+  padding: 0 0 4px;
+  position: relative;
+  text-transform: uppercase;
+  border: medium none;
+}
+
+#comment-icon {
+  position: relative;
+  top: 12px;
+  width: 32px;
+  height: 25px;
+}
+
+#comments-ammount {
+  position: absolute;
+  top: 14px;
+  left: 6px;
+  vertical-align: middle;
+}
+
+.social {
+  height: 18px;
+  width: 18px;
+  vertical-align: middle;
+  align-self: center;
+}
+
+.social-fb {
+  vertical-align: middle;
+}
+
+#bookmark {
+  height: 30px;
+  width: 21px;
+  align-self: center;
+}
+
+#bookmark-btn {
+  padding: 0;
+  position: relative;
+  top: 11px;
+  right: 8px;
+  border: none;
+  height: 30px;
+  width: 18px;
+  background-color: transparent;
+}
+
+#top-logo {
+  width: 195px;
+  height: 26.5px;
+  padding-left: 25%;
+}
+
+#header-btns {
+  position: relative;
+  right: 25px;
+}
+
+.h-btn {
+  font-family: "nyt-cheltenham", sans-serif;
+  padding: 11px 12px 8px 12px;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+main {
+  padding-top: 60px;
+}
+
+.main-article {
+  width: 600px;
+  margin: 0 auto;
+  font-size: 20px;
+  font-family: 'nyt-imperial', sans-serif;
+  line-height: 30px;
+  font-weight: 400;
+  color: rgb(51, 51, 51);
+}
+
+.main-article span {
+  height: 20px;
+  display: block;
+}
+
+.subtitle {
+  font-size: 20px;
+  font-weight: 700;
+  color: rgb(51, 51, 51);
+  margin: 10px 0;
+}
+
+#biceps-img {
+  height: 400px;
+  width: 600px;
+  margin-top: 50px;
+}
+
+aside {
+  position: relative;
+  right: 90px;
+  width: 210px;
+  margin-top: 420px;
+  margin-left: 75px;
+}
+
+.aside-img {
+  width: 75px;
+  margin-left: 0;
+  display: inline-block;
+}
+
+.aside-title {
+  position: relative;
+  top: 10px;
+  display: inline-block;
+  width: calc(100% - 90px);
+  height: 70px;
+  vertical-align: top;
+}
+
+aside a h3 {
+  font-size: 13px;
+  font-family: 'nyt-cheltenham-small', sans-serif;
+}
+
+.sign-up h2 {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  font-family: "nyt-franklin", sans-serif;
+}
+
+.sign-up p {
+  color: rgb(102, 102, 102);
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 16px;
+  font-family: "nyt-franklin", sans-serif;
+}
+
+#signup-btn {
+  font-size: 13px;
+  width: 180px;
+  padding: 10px;
+}
+
+#aside-posts {
+  margin-top: 150px;
+}
+
+.fixed-bottom img {
+  width: 25px;
+  vertical-align: middle;
+  margin-left: 30px;
+}
+
+.aside-picks img,
+#paid-post img {
+  padding-top: 10px;
+  margin-bottom: 1px;
+  width: 75px;
+}
+
+#paid-post {
+  background-color: #f6f6f6;
+}
+
+#main-title {
+  width: 945px;
+}
+
+#main-title h1 {
+  font-family: "nyt-cheltenham", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  font-style: italic;
+  font-stretch: 100%;
+  line-height: 3rem;
+  padding-left: 75px;
+}
+
+.img-cap-1 {
+  color: #666;
+  font-family: "nyt-imperial", sans-serif;
+  font-size: 14px;
+  display: inline-block;
+  width: 600px;
+  height: 36px;
+  line-height: 20px;
+  text-align: left;
+}
+
+.img-cap-2 {
+  color: rgb(136, 136, 136);
+  font-family: "nyt-imperial", sans-serif;
+  font-size: 13px;
+  display: inline-block;
+}
+
+.inflation {
+  width: 945px;
+  display: block;
+  position: relative;
+  margin: 40px auto;
+  clear: both;
+}
+
+.inflation-text .subtitle {
+  margin: 0;
+}
+
+.inflation-text p {
+  color: #666;
+  line-height: 18px;
+  font-size: 14px;
+  width: 909px;
+  margin-right: 8px;
+}
+
+#inflation-img {
+  width: 945px;
+}
+
+.inflation figcaption::before {
+  width: 60px;
+  content: '';
+  display: inline-block;
+  height: 1px;
+  margin: 0 0 13px;
+  background-color: #000;
+  position: absolute;
+  top: -15px;
+}
+
+.inflation figcaption {
+  font-size: 14px;
+  font-weight: 500;
+  font-family: "nyt-franklin", sans-serif;
+  line-height: 18px;
+  position: relative;
+  margin-top: 24px;
+}
+
+.img-text {
+  width: 225px;
+  display: inline-block;
+  position: absolute;
+  font-family: "nyt-franklin", sans-serif;
+  font-size: 12px;
+  line-height: 17px;
+  font-weight: 300;
+  color: #000;
+}
+
+.img-text strong {
+  font-weight: 700;
+}
+
+#img-universe {
+  top: 200px;
+  left: 0;
+  z-index: 3;
+}
+
+#img-time {
+  top: 200px;
+  left: 235px;
+  z-index: 3;
+}
+
+#img-distant {
+  top: 200px;
+  left: 475px;
+  z-index: 3;
+}
+
+#img-everywhere {
+  top: 200px;
+  left: 721px;
+  z-index: 3;
+}
+
+#img-not-time {
+  top: 480px;
+  left: 0;
+  z-index: 3;
+}
+
+#img-inflation {
+  top: 480px;
+  left: 235px;
+  z-index: 3;
+}
+
+#img-fluctuation {
+  top: 480px;
+  left: 475px;
+  z-index: 3;
+}
+
+#img-expansion {
+  top: 480px;
+  left: 721px;
+  z-index: 3;
+}
+
+#video {
+  margin: 60px auto;
+  height: 350px;
+}
+
+iframe {
+  height: 315px;
+  width: 560px;
+}
+
+#bicep {
+  margin-bottom: 40px;
+}
+
+#print-info {
+  margin: 30px auto;
+  font-family: "nyt-franklin", sans-serif;
+  font-size: 10.5px;
+  font-weight: 400;
+  line-height: 16px;
+  color: rgb(102, 102, 102);
+}
+
+#print-info a {
+  text-decoration: underline;
+  color: rgb(102, 102, 102);
+}
+
+#comments-btn {
+  padding: 5px 0;
+  width: 330px;
+  font-size: 13px;
+}
+
+#bottom-wrapper {
+  width: 77%;
+  margin: 0 auto;
+}
+
+.title {
+  font-size: 16px;
+  font-weight: 700;
+  font-family: 'nyt-franklin', sans-serif;
+  margin: 40px 0 20px 0;
+  padding-top: 20px;
+  border-top: 1px solid black;
+}
+
+#most-popular {
+  width: 22.5%;
+}
+
+#most-popular a {
+  display: block;
+  border-top: 1px solid rgb(226, 226, 226);
+  font-size: 19px;
+  font-weight: 500;
+  line-height: 23px;
+  font-family: 'nyt-cheltenham', sans-serif;
+  padding: 18px 0;
+}
+
+#space-cosmos,
+#bottom-editors {
+  width: 73.5%;
+}
+
+.card {
+  width: 100%;
+}
+
+.card-container {
+  display: block;
+  width: 32%;
+  height: 350px;
+  float: left;
+  font-size: 18px;
+  font-family: "nyt-cheltenham", sans-serif;
+}
+
+.middle-card {
+  margin: 0 14.5px;
+}
+
+.card-text,
+.card-title {
+  width: 270px;
+}
+
+.fixed-bottom {
+  height: 40px;
+  position: fixed;
+  bottom: 0;
+  border-top: 1px solid black;
+  z-index: 10;
+  width: 100%;
+  background-color: white;
+  padding-top: 25px;
+}
+
+.fixed-bottom h2 {
+  margin-left: 32%;
+  width: 40%;
+  display: inline-block;
+  font-family: 'nyt-franklin', sans-serif;
+}
+
+.fixed-bottom div {
+  float: right;
+  width: 15%;
+  font-weight: 700;
+  font-family: 'nyt-franklin', sans-serif;
+  font-size: 12px;
+  letter-spacing: 0.24px;
+}
+
+.card-container time {
+  display: block;
+  font-size: 12px;
+  color: #999;
+}
+
+#home-page {
+  color: rgb(86, 123, 149);
+  font-family: "nyt-franklin", sans-serif;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 11px;
+}
+
+.lower-container {
+  margin: 0 auto;
+  width: 94%;
+  border-top: 3px solid rgb(226, 226, 226);
+  padding-top: 5px;
+}
+
+.inline li {
+  display: inline;
+}
+
+.lower-column {
+  width: 16%;
+  display: inline-block;
+  text-align: left;
+  vertical-align: top;
+}
+
+.lower-column h4 {
+  font-family: "nyt-franklin", sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 15px;
+  color: rgb(51, 51, 51);
+  margin: 15px 0;
+}
+
+.lower-column ul li {
+  font-family: "nyt-franklin", sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 16px;
+  color: rgb(51, 51, 51);
+  margin: 10px 0;
+}
+
+#lower-double {
+  border-left: solid 1px rgb(226, 226, 226);
+  padding-left: 15px;
+}
+
+#lower-double div:first-child {
+  border-bottom: solid 1px rgb(226, 226, 226);
+  padding-left: 0;
+}
+
+#lower-double strong {
+  font-weight: 700;
+}
+
+footer {
+  padding: 0 50px;
+  text-align: center;
+}
+
+footer nav {
+  width: 90%;
+  border-top: 1px solid rgb(226, 226, 226);
+  padding-top: 20px;
+  padding-bottom: 90px;
+}
