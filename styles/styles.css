@@ -791,7 +791,7 @@ iframe {
 
 .lower-container {
   margin: 0 auto;
-  width: 90%;
+  width: 94%;
   border-top: 3px solid rgb(226, 226, 226);
   padding-top: 5px;
 }
@@ -801,7 +801,7 @@ iframe {
 }
 
 .lower-column {
-  width: 195px;
+  width: 16%; 
   display: inline-block;
   text-align: left;
   vertical-align: top;
